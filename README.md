@@ -33,7 +33,7 @@ Download model checkpoint [here]([https://duckduckgo.com](https://drive.google.c
 conda activate favor
 python inference.py
 ==========================Output=============================
-
+The video is a romantic scene of a man and a woman on a boat. The man is holding the woman in his arms, and they are both looking at the sunset. The audio is a song that adds to the romantic atmosphere. The woman says "I'm flying" and "Jack," which suggests that they are happy and enjoying the moment. The setting of the boat and the sunset create a beautiful and serene environment that enhances the romantic feel of the video. The man and the woman's body language and facial expressions also convey their love and affection for each other. Overall, the video is a perfect representation of a romantic and intimate moment between two people.
 ```
 
 ## Reference
