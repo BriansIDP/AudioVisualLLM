@@ -13,10 +13,25 @@ Button Specifications:
 
 `Resubmit`: clear the previous conversation turn and then submit the text in the text box
 
-`maximum length`, `top p` and `temperature` have their own individual meanings
+`maximum length`, `top p` and `temperature` have their meanings
 
 Examples mentioned in the paper are provided. Please feel free to start with those.
 
 
-## Setting-up Environment
-`conda env create -f environment.yml`
+## Getting started
+```
+cd AudioVisualLLM
+conda env create -f environment.yml
+mkdir ckpt
+```
+
+Download model checkpoint [here]([https://duckduckgo.com](https://drive.google.com/drive/folders/166g9WVWXwYP77VJyOd3isi_UvRpmX_cv?usp=sharing)) and put the folder under `ckpt/`
+
+
+## Inference
+```
+conda activate favor
+python inference.py
+==========================Output=============================
+
+```
