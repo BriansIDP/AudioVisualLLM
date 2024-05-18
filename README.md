@@ -35,3 +35,14 @@ python inference.py
 ==========================Output=============================
 
 ```
+
+## Reference
+Please cite our paper if you use our model
+```
+@article{sun2023finegrained,
+      title={Fine-grained Audio-Visual Joint Representations for Multimodal Large Language Models}, 
+      author={Guangzhi Sun and Wenyi Yu and Changli Tang and Xianzhao Chen and Tian Tan and Wei Li and Lu Lu and Zejun Ma and Chao Zhang},
+      year={2023},
+      journal={arXiv:2310.05863},
+}
+```
