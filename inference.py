@@ -81,12 +81,9 @@ def predict(
         'dosample': True,
         'modality_embeds': modality_cache,
         'av_shift': False,
-        'num_beams': 3,
-        'num_returns': 3,
-        'lengthpenalty': 1.0,
     }
-    response, _ = model.generate(inputs)
-    history.append((input, response[0]))
+    response = model.generate(inputs)
+    history.append((input, response))
     return response, history, modality_cache
 
 
@@ -142,5 +139,5 @@ if __name__ == "__main__":
     video_path = "data/example_video.mp4"
     audio_path = "data/example_video.wav"
     user_input = "Explain in detail why this video together with the audio and what they say is romantic"
-    response, history, modality_cache = predict(user_input, None, audio_path, video_path, None, 512, 0.9, 1, [], [])
-    print(response[0])
+    response, history, modality_cache = predict(user_input, None, audio_path, video_path, None, 512, 0.01, 1, [], [])
+    print(response)

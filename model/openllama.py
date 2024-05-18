@@ -1209,7 +1209,7 @@ class OpenLLAMAPEFTModel(nn.Module):
             temperature=inputs['temperature'],
             do_sample=inputs.get('dosample', False),
             use_cache=True,
-            num_beams=inputs.get('num_beams', 1),
+            num_beams=inputs.get('num_beams', 5),
             repetition_penalty=1.5,
             length_penalty=inputs.get('lengthpenalty', 1),
             stopping_criteria=stopping_criteria,
