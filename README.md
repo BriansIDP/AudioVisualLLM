@@ -17,3 +17,6 @@ Button Specifications:
 
 Examples mentioned in the paper are provided. Please feel free to start with those.
 
+
+## Setting-up Environment
+`conda env create -f environment.yml`
