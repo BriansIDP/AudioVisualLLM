@@ -25,7 +25,7 @@ conda env create -f environment.yml
 mkdir ckpt
 ```
 
-Download model checkpoint [here]([https://duckduckgo.com](https://drive.google.com/drive/folders/166g9WVWXwYP77VJyOd3isi_UvRpmX_cv?usp=sharing)) and put the folder under `ckpt/`
+Download model checkpoint [here](https://drive.google.com/drive/folders/166g9WVWXwYP77VJyOd3isi_UvRpmX_cv?usp=sharing) and put the folder under `ckpt/`
 
 
 ## Inference
